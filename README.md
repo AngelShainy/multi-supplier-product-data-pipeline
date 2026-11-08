@@ -133,7 +133,7 @@ python main.py report
 ```
 
 ### 5.5 Run Automated Test Suite
-Runs the complete suite of 25 unit and integration tests with verbose reporting:
+Runs the complete suite of 26 unit and integration tests with verbose reporting:
 ```bash
 pytest -v
 ```
@@ -245,7 +245,7 @@ tests/test_synthetic_data.py::test_synthetic_data_generation PASSED
 tests/test_validation.py::test_validation_quarantines_defective_records PASSED
 tests/test_validation.py::test_barcode_validation PASSED
 tests/test_validation.py::test_quarantine_empty_input PASSED
-============================= 25 passed in 3.92s ==============================
+============================= 26 passed in 3.92s ==============================
 ```
 
 ---
