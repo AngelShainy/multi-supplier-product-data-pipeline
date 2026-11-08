@@ -22,7 +22,7 @@ The pipeline ingests heterogeneous product catalog feeds from multiple suppliers
 | **10** | Track run IDs, row counts, timestamps, status | Execution metadata audit logging table `pipeline_runs` (`src/database.py`) | Verified |
 | **11** | Output CSVs and reconciliation reports | Downstream CSV catalog export, JSON report, and formatted Markdown reconciliation audit (`src/reporter.py`) | Verified |
 | **12** | Reproducible synthetic data for 100,000+ records | Vectorized Faker + NumPy generator with seed reproducibility and controlled defect injection (`src/data_generator.py`) | Verified |
-| **13** | Automated tests for normal & negative scenarios | 25 automated tests with Pytest covering edge cases, invalid inputs, and E2E workflows (`tests/`) | Verified |
+| **13** | Automated tests for normal & negative scenarios | 26 automated tests with Pytest covering edge cases, invalid inputs, and E2E workflows (`tests/`) | Verified |
 | **14** | Complete README, data dictionary & design docs | Detailed documentation in `README.md`, `docs/DATA_DICTIONARY.md`, and `docs/DESIGN.md` | Verified |
 
 ---
