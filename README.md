@@ -83,6 +83,11 @@ Multi-Supplier Product Data Pipeline/
 
 ---
 
+Note: Large synthetic input datasets and the DuckDB
+warehouse are generated locally during execution and
+are excluded from Git version control. Small sample
+supplier datasets are included in data/sample/.
+
 ## 4. Quick Start & Setup
 
 ### 4.1 Prerequisites
