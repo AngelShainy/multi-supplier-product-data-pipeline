@@ -24,3 +24,4 @@ data/warehouse/
 .env.*
 !.env.example
 reports/reconciliation_report_RUN_*
+data/output/canonical_products.csv
