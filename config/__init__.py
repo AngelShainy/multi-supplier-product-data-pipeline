@@ -1,0 +1,30 @@
+"""Configuration package for Multi-Supplier Product Data Integration Pipeline."""
+from config.settings import (
+    BASE_DIR,
+    DATA_RAW_DIR,
+    DATA_WAREHOUSE_DIR,
+    DATA_OUTPUT_DIR,
+    DATA_QUARANTINE_DIR,
+    REPORTS_DIR,
+    LOGS_DIR,
+    DUCKDB_PATH,
+    SUPPLIER_CONFIGS,
+    CURRENCY_EXCHANGE_RATES,
+    CATEGORY_NORMALIZATION_MAP,
+    VALIDATION_RULES,
+)
+
+__all__ = [
+    "BASE_DIR",
+    "DATA_RAW_DIR",
+    "DATA_WAREHOUSE_DIR",
+    "DATA_OUTPUT_DIR",
+    "DATA_QUARANTINE_DIR",
+    "REPORTS_DIR",
+    "LOGS_DIR",
+    "DUCKDB_PATH",
+    "SUPPLIER_CONFIGS",
+    "CURRENCY_EXCHANGE_RATES",
+    "CATEGORY_NORMALIZATION_MAP",
+    "VALIDATION_RULES",
+]

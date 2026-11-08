@@ -1,0 +1,3 @@
+vendor_part_no,description,product_category,price,iso_currency,quantity_on_hand,package_weight_g,gtin,timestamp
+CR-901,Crest Mouse Ergonomic,Electronics,38.00,CAD,60,200.0,00987654321098,03/11/2026 10:15:00
+CR-BAD-02,Negative Stock Product,Electronics,50.00,USD,-10,500.0,999999999999,03/11/2026 11:00:00

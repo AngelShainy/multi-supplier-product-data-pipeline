@@ -1,0 +1,4 @@
+item_code,title,department,wholesale_price,currency_code,available_inventory,item_weight_lbs,upc_code,updated_at
+BCN-501,Beacon Ergonomic Optical Mouse,Consumer Electronics,20.00,GBP,80,0.440924,987654321098,2026-11-02 14:00:00
+BCN-502,Beacon Standing Desk Mat,Office Products,35.00,USD,40,3.3,112233445566,2026-11-02 15:30:00
+,Nameless Item,General,10.00,USD,5,1.0,123456789012,2026-11-02 12:00:00

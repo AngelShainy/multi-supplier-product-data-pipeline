@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.duckdb
+*.duckdb.wal
+.pytest_cache/
+logs/*.log
+reports/archive/
+.venv/
+env/
+venv/
+
+# Large generated datasets
+data/raw/
+data/warehouse/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+reports/reconciliation_report_RUN_*

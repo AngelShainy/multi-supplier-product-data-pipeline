@@ -1,0 +1,5 @@
+supplier_sku,prod_name,cat,unit_cost,curr,stock_qty,weight_kg,barcode_ean,last_modified
+APX-001,Apex Wireless Keyboard,elec,45.00,USD,100,0.850,0123456789012,2026-11-01T10:00:00Z
+APX-002,Apex Ergonomic Mouse,elec,25.00,EUR,50,0.200,0987654321098,2026-11-01T12:00:00Z
+APX-001,Apex Wireless Keyboard Old,elec,49.00,USD,10,0.850,0123456789012,2026-10-31T08:00:00Z
+APX-BAD-01,Defective Widget,home,-15.00,USD,20,1.0,0111111111111,2026-11-01T10:00:00Z

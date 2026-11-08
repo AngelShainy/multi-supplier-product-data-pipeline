@@ -1,0 +1,67 @@
+{
+  "run_id": "RUN_20261108_142436_ecb09b",
+  "start_time": "2026-11-08 14:24:36Z",
+  "end_time": "2026-11-08 14:34:44Z",
+  "duration_seconds": 607.91,
+  "summary": {
+    "total_ingested": 105000,
+    "total_valid": 102376,
+    "total_quarantined": 2624,
+    "quarantine_rate_percent": 2.5,
+    "intra_supplier_duplicates_pruned": 15156,
+    "canonical_products_created": 65467
+  },
+  "supplier_funnel": {
+    "supplier_a": {
+      "name": "Apex Supplies",
+      "ingested": 39900,
+      "valid": 38903,
+      "quarantined": 997
+    },
+    "supplier_b": {
+      "name": "Beacon Retail",
+      "ingested": 33600,
+      "valid": 32760,
+      "quarantined": 840
+    },
+    "supplier_c": {
+      "name": "Crest Wholesale",
+      "ingested": 31500,
+      "valid": 30713,
+      "quarantined": 787
+    }
+  },
+  "intra_supplier_dedup": {
+    "supplier_a": 6424,
+    "supplier_b": 4633,
+    "supplier_c": 4099
+  },
+  "rejection_breakdown": {
+    "INVALID_PRICE_BELOW_MINIMUM": 618,
+    "INVALID_OR_MISSING_TIMESTAMP": 370,
+    "MISSING_SKU": 360,
+    "MISSING_PRODUCT_NAME": 336,
+    "INVALID_WEIGHT_BELOW_MIN": 326,
+    "INVALID_STOCK_NEGATIVE": 313,
+    "BARCODE_NON_NUMERIC": 301
+  },
+  "overlap_metrics": {
+    "1": 45961,
+    "2": 17259,
+    "3": 2247
+  },
+  "resolution_rules": {
+    "SINGLE_SOURCE": 229805,
+    "SUPPLIER_PRIORITY": 58518,
+    "LOWEST_PRICE": 19506,
+    "AGGREGATED_SUM": 19506
+  },
+  "financial_kpis": {
+    "total_canonical_products": 65467,
+    "total_inventory_units": 32081165,
+    "total_inventory_value_usd": 8044001460.16,
+    "average_price_usd": 252.17,
+    "min_price_usd": 9.38,
+    "max_price_usd": 547.79
+  }
+}
