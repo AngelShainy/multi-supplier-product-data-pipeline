@@ -1,0 +1,98 @@
+# AI PROMPT HISTORY & PERSONAL CONTRIBUTIONS
+
+**Project:** Multi-Supplier Product Data Integration Pipeline  
+**Developer:** Saka Angel Shainy  
+**Technology Stack:** Python, Pandas, DuckDB, Pytest, Faker, NumPy, Git & GitHub
+
+## 1. How I Used AI
+
+I used ChatGPT as a development assistant throughout this project. AI helped accelerate implementation, explain unfamiliar concepts, suggest code improvements, troubleshoot errors, and improve technical documentation.
+
+I did not treat AI-generated output as automatically correct. I used project execution, test results, database checks, and code review to evaluate the implementation.
+
+## 2. Prompt History
+
+The following are representative prompts from my project development conversations.
+
+| Development stage | Prompt / instruction | How AI helped |
+|---|---|---|
+| Project planning | Help me design a multi-supplier product data integration pipeline using Python, Pandas and DuckDB. | Suggested architecture and module structure. |
+| Data ingestion | Help implement ingestion for three supplier CSV files with different column names, currencies and weight units. | Suggested schema mapping and normalization logic. |
+| Product mapping | Explain how to normalize GTIN-12, GTIN-13 and GTIN-14 identifiers and map products across suppliers. | Helped develop canonical product mapping. |
+| Data validation | Help implement schema validation, business rules and a quarantine mechanism for invalid records. | Suggested validation rules and error handling. |
+| Deduplication | Implement duplicate handling using supplier identifiers and the latest update timestamp. | Helped design deduplication logic. |
+| Conflict resolution | Help resolve conflicting supplier attributes using supplier priority, timestamps and pricing strategies. | Suggested precedence and lineage logic. |
+| Database | Help implement DuckDB persistence with safe reruns and execution tracking. | Assisted with database operations and idempotency design. |
+| Testing | Help identify missing test scenarios and improve automated test coverage. | Suggested unit and integration test cases. |
+| Documentation | Review my README and identify missing setup, architecture and implementation details. | Improved documentation structure and clarity. |
+| GitHub | Guide me through Git configuration, staging, committing and pushing the project to GitHub. | Helped troubleshoot Git workflow and repository setup. |
+
+## 3. Where I Relied Heavily on AI
+
+I relied more heavily on AI assistance for:
+
+- Designing the initial modular architecture.
+- Developing complex Pandas transformations and supplier normalization logic.
+- Implementing DuckDB database operations and transactional upsert patterns.
+- Designing attribute-level source lineage.
+- Creating automated test cases and identifying edge cases.
+- Troubleshooting implementation errors.
+
+I recognize that these areas require further independent practice, especially database transactions, Python data transformations and pipeline recovery strategies.
+
+## 4. My Personal Contributions
+
+I personally participated in the following activities:
+
+1. Defined and worked through the multi-supplier product integration problem.
+2. Worked with the project configuration, input datasets and supplier mapping requirements.
+3. Ran Git commands, checked repository status, reviewed tracked and untracked files, staged changes and pushed the project to GitHub.
+4. Executed the automated test suite and checked the test results.
+5. Executed the end-to-end pipeline using the 105,000-record synthetic dataset.
+6. Examined pipeline execution metrics, generated CSV outputs and reconciliation reports.
+7. Reviewed the README and identified documentation corrections, including updating the automated test count from 25 to 26.
+8. Investigated the difference between warehouse idempotency and quarantine record duplication.
+9. Reviewed the project structure and prepared it for GitHub submission.
+
+## 5. Validation and Testing Performed
+
+The recorded project execution produced the following results:
+
+| Metric | Result |
+|---|---:|
+| Synthetic input records | 105,000 |
+| Valid records | 102,376 |
+| Quarantined records | 2,624 |
+| Duplicate records pruned | 15,156 |
+| Canonical products | 65,467 |
+| Attribute lineage records | 327,335 |
+| Pipeline execution time | 326.83 seconds |
+| Automated tests | 26 passed |
+
+I used automated tests, database checks, generated outputs and reconciliation reports to evaluate correctness.
+
+**Known limitation:** Although standardized product records remained stable during repeated execution, quarantine records increased on reruns. This was identified as an area requiring further improvement rather than being presented as fully resolved.
+
+## 6. What I Learned
+
+Through this project, I improved my understanding of:
+
+- Modular Python development.
+- Working with heterogeneous datasets.
+- Data cleaning and transformation using Pandas.
+- Schema validation and data quality checks.
+- Product deduplication and canonical mapping.
+- Database persistence using DuckDB.
+- Idempotency and data lineage.
+- Unit testing and integration testing using Pytest.
+- Git and GitHub project management.
+
+## 7. My Approach to AI-Assisted Development
+
+My approach was to use AI as a development assistant, not as a replacement for understanding.
+
+I used AI to accelerate implementation and explain unfamiliar concepts. I then worked with the code, executed commands, examined outputs, reviewed test results and identified issues requiring further improvement.
+
+I acknowledge that I still have areas to strengthen independently. My next step is to improve my ability to implement individual pipeline modules, debug errors and explain technical decisions without relying on AI.
+
+**Declaration:** This document describes my AI-assisted development process and personal participation in the project. AI-generated suggestions and code were used during development, and I have distinguished that assistance from the validation activities and work I personally performed.
